@@ -1,4 +1,4 @@
-module leads_module
+module farm_tales
 
 go 1.14
 

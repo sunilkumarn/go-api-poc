@@ -3,4 +3,4 @@ database:
   username: root
   password: 
   adapter: mysql
-  name: leads_module
+  name: farm_tales
