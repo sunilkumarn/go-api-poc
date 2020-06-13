@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"leads_module/models"
-	"leads_module/server"
+	"farm_tales/models"
+	"farm_tales/server"
 	"net/http"
 	"os"
 	"os/signal"

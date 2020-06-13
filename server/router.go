@@ -1,7 +1,7 @@
 package server
 
 import (
-	"leads_module/controllers"
+	"farm_tales/controllers"
 
 	"github.com/gin-gonic/gin"
 )
@@ -10,8 +10,8 @@ func Router() *gin.Engine {
 	r := gin.Default()
 
 	// Routes
-	r.GET("/leads", controllers.GetLeads)
-	r.GET("/leads/:id", controllers.GetLead)
+	r.GET("/farms", controllers.GetFarms)
+	r.GET("/farms/:id", controllers.GetFarm)
 
 	return r
 }
